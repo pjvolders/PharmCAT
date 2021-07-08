@@ -14,15 +14,6 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Set appVersion
-        uses: bhowell2/github-substring-action@v1
-        id: appVersion
-        with:
-          value: ${{github.ref}}
-          index_of_str: "refs/tags/v"
-
-      - run: echo "Version = ${{steps.appVersion.outputs.substring}}"
-
       - name: Set up JDK
         uses: actions/setup-java@v1
         with:
