@@ -24,7 +24,14 @@ def run(args):
     tmp_files_to_be_removed = []
 
     # download the human reference sequence if not provided
-    path_to_ref_seq = util.download_grch38_ref_fasta_and_index(current_working_dir) if not args.ref_seq else args.ref_seq
+    if args.ref_seq:
+        path_to_ref_seq = args.ref_seq
+    else:
+        grch_file = os.path.join(current_working_dir, 'grch38.fasta')
+        if os.path.exists(grch_file):
+            path_to_ref_seq = grch_file
+        else:
+            path_to_ref_seq = util.download_grch38_ref_fasta_and_index(current_working_dir, grch_file)
 
     # if the input VCF file is not indexed (.tbi doesn't exist), create an index file in the input folder using tabix
     if not os.path.exists(args.input_vcf + '.tbi'):

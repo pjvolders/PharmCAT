@@ -1,0 +1,65 @@
+name: Test build
+
+on:
+  push:
+    branches:
+      - "*"
+
+jobs:
+  release:
+    name: Test build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set appVersion
+        uses: bhowell2/github-substring-action@v1
+        id: appVersion
+        with:
+          value: ${{github.ref}}
+          index_of_str: "refs/tags/v"
+
+      - run: echo "Version = ${{steps.appVersion.outputs.substring}}"
+
+      - name: Set up JDK
+        uses: actions/setup-java@v1
+        with:
+          java-version: 14
+
+      - name: Cache Gradle packages
+        uses: actions/cache@v2
+        with:
+          path: |
+            ~/.gradle/caches
+            ~/.gradle/wrapper
+          key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle*', '**/gradle-wrapper.properties') }}
+          restore-keys: |
+            ${{ runner.os }}-gradle-
+
+      - name: Run tests
+        run: ./gradlew test
+
+      - name: Package app
+        run: ./gradlew shadowJar
+
+#      - name: Compile
+#        run: ./gradlew classes
+
+      - name: Build docker container
+        run: docker build --tag pharmcat .
+
+      - name: Extract positions
+        run: ./gradlew extractPositions
+
+      - name: Normalize positions
+        run: chmod 755 ./src/scripts/normalize_pharmcat_positions.sh && ./src/scripts/normalize_pharmcat_positions.sh
+
+
+      - name: Cleanup Gradle Cache
+        # Remove some files from the Gradle cache, so they aren't cached by GitHub Actions.
+        # Restoring these files from a GitHub Actions cache might cause problems for future builds.
+        run: |
+          rm -f ~/.gradle/caches/modules-2/modules-2.lock
+          rm -f ~/.gradle/caches/modules-2/gc.properties

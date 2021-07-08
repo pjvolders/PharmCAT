@@ -145,7 +145,7 @@ task updateData(type: JavaExec, dependsOn: 'classes') {
 task extractPositions(type: JavaExec, dependsOn: 'classes') {
   main = 'org.pharmgkb.pharmcat.definition.ExtractPositions'
   classpath = sourceSets.main.runtimeClasspath
-  def argList = ['-o', file('build/pharmcat_positions_' + getVersionName() + '.vcf')]
+  def argList = ['-o', file('build/orig_pharmcat_positions.vcf')]
   args argList
 }
 
@@ -162,7 +162,7 @@ task extractPositionsForDocs(type: JavaExec, dependsOn: 'classes') {
   main = 'org.pharmgkb.pharmcat.definition.ExtractPositions'
   classpath = sourceSets.main.runtimeClasspath
   def argList = [
-      '-o', file('build/pharmcat_positions.vcf'),
+      '-o', file('build/orig_pharmcat_positions.vcf'),
   ]
   args argList
 }
@@ -172,7 +172,7 @@ task extractPositionsForTest(type: JavaExec, dependsOn: 'classes') {
   main = 'org.pharmgkb.pharmcat.definition.ExtractPositions'
   classpath = sourceSets.main.runtimeClasspath
   def argList = [
-      '-o', file('build/pharmcat_positions.vcf'),
+      '-o', file('build/orig_pharmcat_positions.vcf'),
       '-a'
   ]
   args argList
