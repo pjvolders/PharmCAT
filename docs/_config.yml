@@ -1,4 +1,4 @@
-theme: jekyll-theme-minimal
+remote_theme: rundocs/jekyll-rtd-theme
 title: PharmCAT
 logo: https://s3.pgkb.org/attachment/pharmcat_logo.png
 show_downloads: true

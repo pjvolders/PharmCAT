@@ -22,7 +22,7 @@ PharmCAT is under active development.
 
 Read [the PharmCAT wiki page on named allele matching](https://github.com/PharmGKB/PharmCAT/wiki/NamedAlleleMatcher-101) to learn how PharmCAT matches genotype data to allele definitions.
 
-There are detailed documents on how a few particular genes are handled by PharmCAT. See the [gene definition exceptions](methods/gene-definition-exceptions) for a rundown of exceptional circumstances when analyzing particular genes. 
+There are detailed documents on how a few particular genes are handled by PharmCAT. See the [gene definition exceptions](docs/gene-definition-exceptions.md) for a rundown of exceptional circumstances when analyzing particular genes. 
 
 ## Running PharmCAT
 

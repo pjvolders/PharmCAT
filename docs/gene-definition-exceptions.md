@@ -1,6 +1,6 @@
 ---
 title: Gene Definition Exceptions
-permalink: methods/gene-definition-exceptions/
+permalink: gene-definition-exceptions/
 ---
 
 # Gene Definition Exceptions
