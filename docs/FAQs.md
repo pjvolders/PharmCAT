@@ -4,6 +4,10 @@ permalink: faqs/
 nav_order: 7
 ---
 # Frequently Asked Questions
+{: .no_toc }
+
+1. TOC
+{:toc}
 
 ## Can I use my consumer genetic testing data (23andMe / Ancestry.org / etc...) with PharmCAT?
 
