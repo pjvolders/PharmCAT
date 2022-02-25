@@ -1,6 +1,6 @@
 ---
 title: Named Allele Matcher 201
-permalink: methods/named-allele-matcher-201/
+permalink: methods/NamedAlleleMatcher-201/
 parent: Methods
 ---
 # NamedAlleleMatcher 201

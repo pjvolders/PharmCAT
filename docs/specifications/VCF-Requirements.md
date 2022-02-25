@@ -1,6 +1,6 @@
 ---
 title: VCF Requirements
-permalink: specifications/vcf-requirements/
+permalink: specifications/VCF-Requirements/
 parent: Specifications
 nav_order: 2
 ---

@@ -21,17 +21,17 @@ PharmCAT is under active development.
 
 ## Documentation
 
-[Summary of Genes and Drugs included in PharmCAT](/summary)
+[Summary of Genes and Drugs included in PharmCAT](/Genes-and-Drugs)
 
-[Technical documentation is on the GitHub wiki](https://github.com/PharmGKB/PharmCAT/wiki). This is where you can learn how to run PharmCAT including data requirements. 
+[Using PharmCAT](technical-docs) will show you how to run PharmCAT and all the different components that make up the PharmCAT tool. 
 
-Read [the PharmCAT wiki page on named allele matching](https://github.com/PharmGKB/PharmCAT/wiki/NamedAlleleMatcher-101) to learn how PharmCAT matches genotype data to allele definitions.
+Read [the Methods](methods) to learn how PharmCAT works, including how it [matches genotype data to allele definitions](methods/NamedAlleleMatcher-101).
 
-There are detailed documents on how a few particular genes are handled by PharmCAT. See the [gene definition exceptions](docs/methods/gene-definition-exceptions.md) for a rundown of exceptional circumstances when analyzing particular genes. 
+There are detailed documents on how particular genes are handled by PharmCAT. See the [gene definition exceptions](methods/gene-definition-exceptions) for a rundown of exceptional circumstances when analyzing particular genes. 
 
 ## Running PharmCAT
 
-To learn how to run PharmCAT, [read the instructions on GitHub](https://github.com/PharmGKB/PharmCAT/wiki/Running-PharmCAT).  Please make sure to also read and understand PharmCAT's [VCF requirements](https://github.com/PharmGKB/PharmCAT/wiki/VCF-Requirements).
+[Learn how to run PharmCAT](technical-docs/Running-PharmCAT).  Please make sure to also read and understand PharmCAT's [VCF requirements](specifications/VCF-Requirements).
 
 ## Examples
 
