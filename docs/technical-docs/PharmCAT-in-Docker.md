@@ -4,8 +4,9 @@ permalink: technical-docs/docker
 parent: Technical Documentation
 nav_order: 3
 ---
+# Docker
 
-PharmCAT is also available in a Docker container.
+PharmCAT is available in a Docker container.
 
 ## Setup
 

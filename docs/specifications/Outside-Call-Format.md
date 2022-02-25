@@ -4,6 +4,7 @@ permalink: specifications/outside-call-format/
 parent: Specifications
 nav_order: 4
 ---
+# Outside Call Format
 
 Typically, PharmCAT uses variant call data to match diplotypes used to find annotations. However, you can also give 
 diplotypes to PharmCAT that were called by other tools. This is especially useful for genes that PharmCAT will not match 

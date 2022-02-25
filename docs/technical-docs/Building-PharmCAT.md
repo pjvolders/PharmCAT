@@ -4,6 +4,7 @@ permalink: technical-docs/building-pharmcat
 parent: Technical Documentation
 nav_order: 4
 ---
+# Building PharmCAT
 
 ## Build Requirements
 

@@ -4,6 +4,7 @@ parent: Technical Documentation
 permalink: technical-docs/Running-PharmCAT
 nav_order: 2
 ---
+# Running PharmCAT
 
 This will run the entire PharmCAT tool.
 

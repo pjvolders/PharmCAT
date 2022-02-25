@@ -4,6 +4,7 @@ permalink: technical-docs/coding-conventions
 parent: Technical Documentation
 nav_order: 7
 ---
+# Coding Conventions
 
 Recommended reading: [Java For Small Teams](https://www.gitbook.com/book/ncrcoe/java-for-small-teams/).
 

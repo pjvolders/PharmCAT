@@ -1,10 +1,10 @@
 ---
-title: Technical Documentation
+title: Using PharmCAT
 nav_order: 3
 has_children: true
 ---
 
-# PharmCAT Technical Documentation
+# Using PharmCAT
 
 PharmCAT requires [Java 14 or newer](https://adoptium.net/index.html?variant=openjdk17&jvmVariant=hotspot) to run or compile.
 
