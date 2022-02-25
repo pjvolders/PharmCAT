@@ -1,19 +1,15 @@
 ---
-title: PharmCAT Tooling
-permalink: tooling/
+title: Tooling
+permalink: technical-docs/tooling
+parent: Technical Documentation
+nav_order: 6
 ---
+# Tooling
 
 We are agnostic about the tools you use, but here are some tips on getting started with common tools:
 
 
-* [Eclipse](#eclipse)
-* [IntelliJ IDEA](#intellij-idea)
-
-
-
 ## Eclipse
-
-#### Setting Up
 
 After checking out the project, on the command line, run:
 
@@ -28,10 +24,7 @@ You should now be able to open up the project in Eclipse.
 Please make sure you install and use the [EditorConfig plugin](http://editorconfig.org/#download).
 
 
-
 ## IntelliJ IDEA
-
-#### Setting Up
 
 When you open the project in [IntelliJ IDEA](https://www.jetbrains.com/idea/), it should detect that there is an unlinked Gradle project.  Click on the option to _Import Gradle project_.
 

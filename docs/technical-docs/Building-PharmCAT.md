@@ -1,6 +1,8 @@
 ---
-title: Building PharmCAT
-permalink: building-pharmcat/
+title: Building
+permalink: technical-docs/building-pharmcat
+parent: Technical Documentation
+nav_order: 4
 ---
 
 ## Build Requirements

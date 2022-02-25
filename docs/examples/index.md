@@ -1,6 +1,7 @@
 ---
 title: Example Reports
 prermalink: examples/
+nav_order: 6
 ---
 
 # Example Report

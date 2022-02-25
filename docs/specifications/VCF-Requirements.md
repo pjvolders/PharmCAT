@@ -1,7 +1,10 @@
 ---
-title: PharmCAT VCF Requirements
-permalink: vcf-requirements/
+title: VCF Requirements
+permalink: specifications/vcf-requirements/
+parent: Specifications
+nav_order: 2
 ---
+# PharmCAT VCF Requirements
 
 PharmCAT expects the incoming VCF files to follow the [official VCF spec](https://samtools.github.io/hts-specs/VCFv4.3.pdf).
 
@@ -56,6 +59,6 @@ chr7	99652770	rs41303343	T	TA	.	PASS	desired-insertion-format	GT	0/1
 
 Every PharmCAT [release](https://github.com/PharmGKB/PharmCAT/releases) includes a `pharmcat_positions.vcf` VCF file that contains all positions of interest to PharmCAT.
 
-For more details about fulfilling these requirements for PharmCAT read the [Preparing VCF Files](Preparing-VCF-Files) page.
+For more details about fulfilling these requirements for PharmCAT read the [Preparing VCF Files](docs/specifications/Preparing-VCF-Files.md) page.
 
 See [Preprocessing VCF Files for PharmCAT](Preprocessing-VCF-Files-for-PharmCAT) for a script to automate some of these steps.

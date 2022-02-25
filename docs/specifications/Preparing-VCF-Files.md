@@ -1,9 +1,11 @@
 ---
 title: Preparing VCF
-permalink: preparing-vcf/
+permalink: specifications/preparing-vcf/
+parent: Specifications
+nav_order: 3
 ---
 
-The requirements for the VCF input file for PharmCAT are described in the VCF [requirement doc](VCF-Requirements). This document explores some reasoning behind those requirements and some specific examples of ways to fulfill them.
+The requirements for the VCF input file for PharmCAT are described in the VCF [requirement doc](docs/specifications/VCF-Requirements.md). This document explores some reasoning behind those requirements and some specific examples of ways to fulfill them.
 
 * [Must be aligned to GRCh38 Assembly](#must-be-aligned-to-grch38-assembly)
 * [Must normalize variant representation](#must-normalize-variant-representation)

@@ -1,9 +1,14 @@
 ---
 title: Home
-permalink: index.html
+permalink: /
+nav_order: 1
 ---
 
-# Pharmacogenomics Clinical Annotation Tool
+# PharmCAT: Pharmacogenomics Clinical Annotation Tool
+
+![PharmCAT logo](images/pharmcat_logo.png)
+
+[Download {{ site.github.latest_release.tag_name }}](https://github.com/PharmGKB/PharmCAT/releases/latest){: .btn .btn-blue } [View on GitHub](https://github.com/PharmGKB/PharmCAT){: .btn }
 
 An active area of genomic medicine implementation at many health care organizations and academic medical centers includes development of decision support and return of results around pharmacogenomics.  One of the challenges in implementing pharmacogenomics is the representation of the information in clinical dosing guidelines, including star-allele haplotypes, and extracting these variants and haplotypes from genetic datasets.  In a collaboration between the [Pharmacogenomics Knowledgebase (PharmGKB)](https://www.pharmgkb.org) and the former [PGRN Statistical Analysis Resource (P-STAR)](http://www.pgrn.org/p-star.html), with input from other groups, we are developing a software tool to extract guideline variants from a genetic dataset (represented as a vcf), interpret the variant alleles, and generate a report with genotype-based prescribing recommendations which can be used to inform treatment decisions.
 The [Clinical Pharmacogenetics Implementation Consortium (CPIC)](https://cpicpgx.org) has established guidelines surrounding gene-drug pairs that can and should lead to treatment modifications based on genetic variants.  These guidelines are used for the initial version of PharmCAT, and other sources of PGx information and guidelines will be included in the future.
@@ -22,7 +27,7 @@ PharmCAT is under active development.
 
 Read [the PharmCAT wiki page on named allele matching](https://github.com/PharmGKB/PharmCAT/wiki/NamedAlleleMatcher-101) to learn how PharmCAT matches genotype data to allele definitions.
 
-There are detailed documents on how a few particular genes are handled by PharmCAT. See the [gene definition exceptions](docs/gene-definition-exceptions.md) for a rundown of exceptional circumstances when analyzing particular genes. 
+There are detailed documents on how a few particular genes are handled by PharmCAT. See the [gene definition exceptions](docs/methods/gene-definition-exceptions.md) for a rundown of exceptional circumstances when analyzing particular genes. 
 
 ## Running PharmCAT
 

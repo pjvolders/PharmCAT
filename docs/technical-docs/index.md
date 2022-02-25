@@ -1,6 +1,7 @@
 ---
 title: Technical Documentation
-permalink: documentation/
+nav_order: 3
+has_children: true
 ---
 
 # PharmCAT Technical Documentation
@@ -12,7 +13,7 @@ PharmCAT requires [Java 14 or newer](https://adoptium.net/index.html?variant=ope
 
 ## Documentation
 
-![process diagram](images/flowchart.png)
+![process diagram](/images/flowchart.png)
 
 * [VCF Requirements](VCF-Requirements)
 * [Preparing the VCF Files](Preparing-VCF-Files)
@@ -43,4 +44,4 @@ Join us in the [PharmCAT Slack](https://pharmcat.slack.com/).
 
 ## Meow
 
-![haplocat](images/haplocat.png)
+![haplocat](/images/haplocat.png)

@@ -1,6 +1,8 @@
 ---
-title: PharmCAT and Docker
-permalink: docker/
+title: Docker
+permalink: technical-docs/docker
+parent: Technical Documentation
+nav_order: 3
 ---
 
 PharmCAT is also available in a Docker container.
@@ -82,4 +84,4 @@ After running the file `/path/to/data/sample.vcf` through the preprocessor, assu
 
 
 > The Docker image includes the `pharmcat` script, which is just a wrapper around the call to Java.
-> For details on using PharmCAT, please see the [Running PharmCAT](Running-PharmCAT#running)
+> For details on using PharmCAT, please see the [Running PharmCAT](docs/technical-docs/Running-PharmCAT.md#running)

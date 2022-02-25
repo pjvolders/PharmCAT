@@ -1,7 +1,9 @@
 ---
-title: Preprocessing VCF for PharmCAT
-permalink: preprocessing-vcf/
+title: VCF Preprocessor
+permalink: technical-docs/vcf-preprocessor/
+parent: Technical Documentation
 ---
+# PharmCAT VCF Preprocessor
 
 The PharmCAT VCF preprocessor is a script that can preprocess VCF files for PharmCAT.
 

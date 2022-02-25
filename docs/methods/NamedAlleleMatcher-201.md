@@ -1,7 +1,9 @@
 ---
 title: Named Allele Matcher 201
-permalink: named-allele-matcher-201/
+permalink: methods/named-allele-matcher-201/
+parent: Methods
 ---
+# NamedAlleleMatcher 201
 
 This document attempts to cover more advanced details of the `NamedAlleleMatcher`.
 

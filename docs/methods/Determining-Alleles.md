@@ -1,7 +1,9 @@
 ---
-title: Determining Allles
-permalink: determining-alleles/
+title: Determining Alleles
+permalink: methods/determining-alleles/
+parent: Methods
 ---
+# Determining Alleles
 
 PharmCAT has an algorithm to match allele definitions to variant call data. This algorithm in the PharmCAT codebase is called [NamedAlleleMatcher](NamedAlleleMatcher-101). The `NamedAlleleMatcher` was written specifically for use in PharmCAT but can be run independantly.
 

@@ -1,6 +1,8 @@
 ---
 title: Running PharmCAT
-permalink: running/
+parent: Technical Documentation
+permalink: technical-docs/Running-PharmCAT
+nav_order: 2
 ---
 
 This will run the entire PharmCAT tool.
