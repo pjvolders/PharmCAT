@@ -5,15 +5,12 @@ parent: Specifications
 nav_order: 3
 ---
 # Preparing VCF
+{: .no_toc }
 
 The requirements for the VCF input file for PharmCAT are described in the VCF [requirement doc](docs/specifications/VCF-Requirements.md). This document explores some reasoning behind those requirements and some specific examples of ways to fulfill them.
 
-* [Must be aligned to GRCh38 Assembly](#must-be-aligned-to-grch38-assembly)
-* [Must normalize variant representation](#must-normalize-variant-representation)
-* [Must have all allele-defining positions](#must-have-all-allele-defining-positions)
-* [The `CHROM` field must be in the format __chr##__](#the-chrom-field-must-be-in-the-format-__chr__)
-* [The `QUAL` and `FILTER` columns are __not interpreted__](#the-qual-and-filter-columns-are-__not-interpreted__)  
-
+- TOC
+{:toc}
 
 ---
 
@@ -27,6 +24,7 @@ We recommend aligning to GRCh38 from the very beginning - for example, see our [
 While you can translate positions between assemblies, this can easily introduce errors into your data.  For example, LiftOver can be problematic due to ambiguity in positions. In addition, many tools won't update the genotype.
 
 ### Known issue with remapping
+{: .no_toc }
 
 If you use [CrossMap](http://crossmap.sourceforge.net/) it will update the position and reference nucleotides. However, if the reference is now the same as the alternate, it will remove the variant from the file.  
 
@@ -43,6 +41,7 @@ We currently do not have a fix for this (NCBI has been contacted), so again you 
 
 
 ### Example: LiftOver using the GATK
+{: .no_toc }
 
 This is a GRCh37-toGRCh38 LiftOver example which uses the GATK LiftoverVcf tool on the UK Biobank genotype data in the GRCh37 coordinates. The GATK LiftoverVcf tool can update genomic coordinates. If the reference allele and alternate allele are swapped in the new genome build for a single nucleotide polymorphism (SNP) locus, the GATK LiftoverVcf can reverse-complement the SNP, update the relevant genotypes (GT), and correct AF-like INFO fields. Due to the length of the example, we host the [example with detailed explanations on Google Drive](https://docs.google.com/document/d/15rxe0iG2kruEWsvBCLyNGof-YRo5T10zuQiBJkUbyJ0/edit?usp=sharing). 
 

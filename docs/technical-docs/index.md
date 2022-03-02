@@ -9,13 +9,12 @@ has_children: true
 PharmCAT requires [Java 14 or newer](https://adoptium.net/index.html?variant=openjdk17&jvmVariant=hotspot) to run or compile.
 
 * [Running PharmCAT](Running-PharmCAT)
-* [Frequently Asked Quesions](FAQs)
 
 ## Documentation
 
 ![process diagram](/images/flowchart.png)
 
-* [VCF Requirements](VCF-Requirements)
+* [VCF Requirements](/specifications/VCF-Requirements)
 * [Preparing the VCF Files](Preparing-VCF-Files)
 * [Preprocessing VCF Files for PharmCAT](Preprocessing-VCF-Files-for-PharmCAT)
 * [PharmCAT in Docker](PharmCAT-in-Docker)

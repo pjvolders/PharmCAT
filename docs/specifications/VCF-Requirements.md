@@ -59,6 +59,6 @@ chr7	99652770	rs41303343	T	TA	.	PASS	desired-insertion-format	GT	0/1
 
 Every PharmCAT [release](https://github.com/PharmGKB/PharmCAT/releases) includes a `pharmcat_positions.vcf` VCF file that contains all positions of interest to PharmCAT.
 
-For more details about fulfilling these requirements for PharmCAT read the [Preparing VCF Files](docs/specifications/Preparing-VCF-Files.md) page.
+For more details about fulfilling these requirements for PharmCAT read the [Preparing VCF Files](/specifications/Preparing-VCF-Files) page.
 
-See [Preprocessing VCF Files for PharmCAT](Preprocessing-VCF-Files-for-PharmCAT) for a script to automate some of these steps.
+See [Preprocessing VCF Files for PharmCAT](/technical-docs/vcf-preprocessor) for a script to automate some of these steps.

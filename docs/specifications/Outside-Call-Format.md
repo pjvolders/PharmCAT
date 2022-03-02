@@ -10,8 +10,8 @@ Typically, PharmCAT uses variant call data to match diplotypes used to find anno
 diplotypes to PharmCAT that were called by other tools. This is especially useful for genes that PharmCAT will not match 
 like CYP2D6.
 
-These **outside call files** can be supplied to the overall [PharmCAT](docs/technical-docs/Running-PharmCAT.md) tool using the `-a` flag or to the 
-[Phenotyper](docs/technical-docs/Running-PharmCAT.md#Running-the-Phenotyper) using the `-o` flag.
+These **outside call files** can be supplied to the overall [PharmCAT](/technical-docs/Running-PharmCAT) tool using the `-a` flag or to the 
+[Phenotyper](/technical-docs/Running-PharmCAT#running-the-phenotyper) using the `-o` flag.
 
 ## File format
 
