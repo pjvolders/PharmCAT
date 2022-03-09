@@ -1,8 +1,8 @@
 ---
 title: Building
 permalink: technical-docs/building-pharmcat
-parent: Using PharmCAT
-nav_order: 4
+parent: Development
+nav_order: 3
 ---
 # Building PharmCAT
 

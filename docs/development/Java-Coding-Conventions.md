@@ -1,8 +1,8 @@
 ---
 title: Coding Convention
 permalink: technical-docs/coding-conventions
-parent: Using PharmCAT
-nav_order: 7
+parent: Development
+nav_order: 2
 ---
 # Coding Conventions
 

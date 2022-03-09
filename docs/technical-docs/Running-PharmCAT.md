@@ -31,7 +31,7 @@ Checkout the repo and from the base repo directory run:
 
 This will build a "fat" jar with bundled dependencies in `build/libs`. You can use this jar file in the following section.
 
-For more information on building PharmCAT, check [Building PharmCAT](Building-PharmCAT).
+For more information on building PharmCAT, check [Building PharmCAT](docs/development/Building-PharmCAT.md).
 
 
 ## Running

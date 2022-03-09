@@ -1,12 +1,13 @@
 ---
-title: Tooling
+title: Tooling for Development
 permalink: technical-docs/tooling
-parent: Using PharmCAT
-nav_order: 6
+parent: Development
+nav_order: 1
 ---
-# Tooling
+# Tooling for Development
 
-We are agnostic about the tools you use, but here are some tips on getting started with common tools:
+Here are some tips if you'd like to contribute to the development of PharmCAT. We don't require particular tools but 
+below are tips for tools we've used.
 
 
 ## Eclipse

@@ -7,7 +7,7 @@ permalink: technical-docs/
 
 # Using PharmCAT
 
-PharmCAT requires [Java 14 or newer](https://adoptium.net/index.html?variant=openjdk17&jvmVariant=hotspot) to run or compile.
+PharmCAT is a tool that is comprised of multiple modules.
 
 * [Running PharmCAT](Running-PharmCAT)
 
@@ -27,10 +27,10 @@ PharmCAT requires [Java 14 or newer](https://adoptium.net/index.html?variant=ope
 
 This section is only applicable to those wanting to contribute to the PharmCAT codebase.
 
-* [Tooling](Tooling)
-* [Java Coding Conventions](Java-Coding-Conventions)
+* [Tooling](docs/development/Tooling.md)
+* [Java Coding Conventions](docs/development/Java-Coding-Conventions.md)
 * [How to Git](How-To-Git)
-* [Building PharmCAT](Building-PharmCAT)
+* [Building PharmCAT](docs/development/Building-PharmCAT.md)
 
 Join us in the [PharmCAT Slack](https://pharmcat.slack.com/).
 
