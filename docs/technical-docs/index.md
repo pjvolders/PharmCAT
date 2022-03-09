@@ -2,6 +2,7 @@
 title: Using PharmCAT
 nav_order: 3
 has_children: true
+permalink: technical-docs/
 ---
 
 # Using PharmCAT

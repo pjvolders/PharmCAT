@@ -1,7 +1,7 @@
 ---
 title: Docker
 permalink: technical-docs/docker
-parent: Technical Documentation
+parent: Using PharmCAT
 nav_order: 3
 ---
 # Docker

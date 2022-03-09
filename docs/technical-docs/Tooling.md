@@ -1,7 +1,7 @@
 ---
 title: Tooling
 permalink: technical-docs/tooling
-parent: Technical Documentation
+parent: Using PharmCAT
 nav_order: 6
 ---
 # Tooling

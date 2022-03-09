@@ -1,6 +1,6 @@
 ---
 title: Running PharmCAT
-parent: Technical Documentation
+parent: Using PharmCAT
 permalink: technical-docs/Running-PharmCAT
 nav_order: 2
 ---

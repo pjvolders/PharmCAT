@@ -1,7 +1,7 @@
 ---
 title: VCF Preprocessor
 permalink: technical-docs/vcf-preprocessor/
-parent: Technical Documentation
+parent: Using PharmCAT
 ---
 # PharmCAT VCF Preprocessor
 
