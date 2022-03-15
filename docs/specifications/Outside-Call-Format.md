@@ -27,5 +27,3 @@ CYP2D6	*1/*3
 G6PD	B (wildtype)/B (wildtype)
 MT-RNR1	1555A>G
 ```
-
-**_NOTE_:** Any call you supply in this outside call data will override any data found in the source VCF data.
